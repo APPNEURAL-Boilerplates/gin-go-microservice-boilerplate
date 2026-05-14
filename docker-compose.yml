@@ -1,0 +1,12 @@
+services:
+  gin-microservice:
+    build: .
+    container_name: gin-microservice
+    env_file:
+      - .env
+    environment:
+      HOST: 0.0.0.0
+      PORT: 8080
+      GIN_MODE: release
+    ports:
+      - "8080:8080"

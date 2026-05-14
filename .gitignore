@@ -1,0 +1,23 @@
+# Binaries
+bin/
+dist/
+*.exe
+*.test
+*.out
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Coverage
+coverage.out
+coverage.html
+
+# Vendor, if you choose to vendor deps
+vendor/
