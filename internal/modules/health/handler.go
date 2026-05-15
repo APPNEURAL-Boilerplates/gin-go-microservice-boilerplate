@@ -6,8 +6,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/example/gin-microservice-boilerplate/internal/common"
-	"github.com/example/gin-microservice-boilerplate/internal/config"
+	"github.com/example/gin-go-microservice/internal/common"
+	"github.com/example/gin-go-microservice/internal/config"
 )
 
 type Handler struct {

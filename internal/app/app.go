@@ -6,12 +6,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/example/gin-microservice-boilerplate/internal/common"
-	"github.com/example/gin-microservice-boilerplate/internal/config"
-	"github.com/example/gin-microservice-boilerplate/internal/middleware"
-	"github.com/example/gin-microservice-boilerplate/internal/modules/health"
-	"github.com/example/gin-microservice-boilerplate/internal/modules/items"
-	"github.com/example/gin-microservice-boilerplate/internal/modules/root"
+	"github.com/example/gin-go-microservice/internal/common"
+	"github.com/example/gin-go-microservice/internal/config"
+	"github.com/example/gin-go-microservice/internal/middleware"
+	"github.com/example/gin-go-microservice/internal/modules/health"
+	"github.com/example/gin-go-microservice/internal/modules/items"
+	"github.com/example/gin-go-microservice/internal/modules/root"
 )
 
 func NewRouter(cfg config.Config, logger *slog.Logger) *gin.Engine {
