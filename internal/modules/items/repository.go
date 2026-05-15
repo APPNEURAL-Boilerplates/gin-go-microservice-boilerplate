@@ -5,7 +5,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/example/gin-go-microservice/internal/common"
+	"github.com/example/gin-go-microservice-boilerplate/internal/common"
 )
 
 type Repository interface {

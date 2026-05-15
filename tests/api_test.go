@@ -10,8 +10,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/example/gin-go-microservice/internal/app"
-	"github.com/example/gin-go-microservice/internal/config"
+	"github.com/example/gin-go-microservice-boilerplate/internal/app"
+	"github.com/example/gin-go-microservice-boilerplate/internal/config"
 )
 
 func TestMain(m *testing.M) {

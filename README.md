@@ -14,7 +14,7 @@ A production-friendly Go microservice starter using Gin.
 ## Project structure
 
 ```txt
-gin-go-microservice/
+gin-go-microservice-boilerplate/
 ├─ cmd/api/main.go
 ├─ internal/
 │  ├─ app/

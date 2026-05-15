@@ -1,4 +1,4 @@
-module github.com/example/gin-go-microservice
+module github.com/example/gin-go-microservice-boilerplate
 
 go 1.25.0
 

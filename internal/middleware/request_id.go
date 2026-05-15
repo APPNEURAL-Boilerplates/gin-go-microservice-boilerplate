@@ -3,7 +3,7 @@ package middleware
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/example/gin-go-microservice/internal/common"
+	"github.com/example/gin-go-microservice-boilerplate/internal/common"
 )
 
 const requestIDHeader = "X-Request-Id"

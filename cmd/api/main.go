@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/example/gin-go-microservice/internal/app"
-	"github.com/example/gin-go-microservice/internal/config"
+	"github.com/example/gin-go-microservice-boilerplate/internal/app"
+	"github.com/example/gin-go-microservice-boilerplate/internal/config"
 )
 
 func main() {
